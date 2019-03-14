@@ -18,13 +18,13 @@ public class SpringAopApplicationTests {
     @Test
     public void annoInsertTest() {
         CurrentUserHolder.set("tom");
-        productService.delete(1L);
+//        productService.delete(1L);
     }
 
     @Test
     public void adminInsert(){
         CurrentUserHolder.set("admin");
-        productService.delete(1L);
+//        productService.delete(1L);
     }
 
 }
